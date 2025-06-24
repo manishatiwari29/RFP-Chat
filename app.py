@@ -299,7 +299,8 @@ class ChatApp:
     def setup_page(self):
         """Configure the Streamlit page."""
         st.set_page_config(page_title="Chat With Your RFP Files")
-        st.title("📄 Chat With Your RFP Files")
+        st.title("📄AI-based automation for RFP Files")
+        st.subheader("This utility enables you to upload an RFP document and extract relevant information by asking questions like Title, Scope of Work, Technical Requirements, and more.")
         
     def initialize_session_state(self):
         """Initialize session state variables."""
