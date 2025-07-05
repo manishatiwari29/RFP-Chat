@@ -44,7 +44,7 @@ warnings.simplefilter(action='ignore', category=FutureWarning)
 warnings.filterwarnings("ignore")
 
 # Configuration
-HUGGINGFACE_API_TOKEN = "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"
+HUGGINGFACE_API_TOKEN = "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"
 os.environ["HUGGINGFACEHUB_API_TOKEN"] = HUGGINGFACE_API_TOKEN
 
 # Constants
